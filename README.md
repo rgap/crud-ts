@@ -44,4 +44,5 @@ npx prisma generate
 ```
 npx prisma migrate deploy
 npm install --save-dev rimraf
+npm install -D @types/express
 ```

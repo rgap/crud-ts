@@ -11,7 +11,7 @@
   },
   "scripts": {
     "dev": "npx nodemon",
-    "build": "rimraf ./build && tsc",
+    "build": "CI=false rimraf ./build && tsc",
     "start": "npm run build && node build/src/index.js"
   },
   "dependencies": {
