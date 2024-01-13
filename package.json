@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "npx nodemon",
     "build": "CI=false rimraf ./build && tsc",
-    "start": "npm run build && node build/src/index.js"
+    "start": "npm run build && node build/index.js"
   },
   "dependencies": {
     "@prisma/client": "^5.8.0",
