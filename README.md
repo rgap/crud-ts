@@ -38,3 +38,10 @@ npx prisma migrate dev --name add_user_product_category_tables
 npm install @prisma/client
 npx prisma generate
 ```
+
+## railway
+
+```
+npx prisma migrate deploy
+npm install --save-dev rimraf
+```
